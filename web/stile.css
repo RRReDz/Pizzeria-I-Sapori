@@ -1,0 +1,248 @@
+/* Regole di stile per la pagina di login */
+
+#header{
+  background-color: #E75252;
+  overflow: hidden;
+  padding-right: 100px;
+  border-radius: 15px;
+}
+
+#header > img{
+  float: left;
+}
+
+#header > h1{
+  font-family: sans-serif;
+  font-size: 35px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+#footer{
+  text-align: center;
+  border-radius: 15px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin-top: 20px;
+  background-color: #E75252;
+  border-radius: 15px;
+}
+
+#footer > p{
+  font-family: serif;
+  font-size: 14px;
+}
+
+#login {
+  text-align: center;
+  width: 20%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+#login > fieldset{
+  background-color: white;
+  border-radius: 5px;
+}
+
+#login > fieldset > legend{
+  font-weight: bold;
+}
+
+#login input{
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#catalogo{
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 70%;
+  height: 500px;
+  margin: auto;
+  margin-top: 50px;
+  overflow: scroll;
+}
+
+#catalogo > h1{
+  text-align: center;
+  font-size: 20px;
+}
+
+#catalogo > div{
+  padding: 10px;
+}
+
+#catalogo > div:nth-child(2n){
+  background-color: #dad9d4;
+}
+
+#pizza{
+  float: left;
+  font-weight: bold;
+  color: #E75252;
+}
+
+#prezzo{
+  float:right;
+}
+
+#ingr{
+  padding-right: 80px;
+  text-align: center;
+}
+
+html {
+  height: 100%
+}
+body {
+    font-family: sans-serif;
+    margin:0 auto; 
+    padding:0;
+    font-family:Verdana,sans-serif;
+    font-size:small;
+    background-color: #EFEEEE;
+    width:100%;
+    min-width:750px;
+    max-width:1220px;
+}
+
+#autenticato{
+  overflow: hidden;
+  width: 65%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+#benvenuto{
+  text-align: end;
+  margin-right: 100px;
+}
+
+#prenotazione{
+  float: left;
+  margin-right: 25px;
+}
+
+#ordini{
+  float: left;
+  margin-right: 25px;
+}
+
+#uscita{
+  float: right;
+}
+
+article fieldset {
+  width:58%;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 500px;
+  margin: auto;
+  margin-top: 50px;
+  overflow: scroll;
+}
+
+h2{
+  text-align: center;
+}
+
+#form > div{
+  padding: 10px;
+}
+
+#form > div:nth-child(2n), .prenotazione_pizze:nth-child(2n){
+  background-color: #dad9d4;
+}
+
+#form{
+  text-align: center;
+}
+
+#myPizza1{
+  width: 45px;
+}
+
+#home{
+  float: right;
+}
+
+#form_ordine{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#form_ordine > fieldset{
+  background-color: white;
+  border-radius: 5px;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#form_ordine > fieldset > span{
+  color: red;
+}
+
+h1{
+  text-align: center;
+}
+
+#form_modifica > fieldset, #form_inserimento > fieldset{
+  background-color: white;
+  border-radius: 10px;
+}
+
+#form_modifica, #form_inserimento{
+  width: 60%;
+  margin: 0 auto;
+}
+
+#ingredienti{
+  overflow:hidden;
+}
+
+.ingredienti{
+  float: left;
+}
+
+.ingredienti > label{
+  margin-right: 20px;
+}
+
+.pizza{
+  width:60%;
+  overflow: hidden;
+  border: 2px groove threedface;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.pizza > span:nth-child(1){
+  font-weight: bold;
+  color: red;
+  float: left;
+}
+
+.pizza > span:nth-child(3){
+  float: right;
+}
+
+#form_catalogo{
+  text-align: center;
+}
+
+input[value="Inserisci Pizza"]{
+  margin-left: 50px;
+  width: 150px;
+  height: 50px;
+}
